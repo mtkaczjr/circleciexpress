@@ -10,7 +10,5 @@ workflows:
       - run: npm install 
       - run: npm start & 
       - run: npm test 
-      - deploy:
-          name: digital-ocean
-          command: cd ~/circleciexpress; git pull; npm install; npm start &"
+
   
